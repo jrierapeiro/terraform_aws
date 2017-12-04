@@ -1,2 +1,4 @@
 .terraform
 .config.rc
+.terraform.tfstate.*
+terraform.tfstate*
