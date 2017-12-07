@@ -1,5 +1,5 @@
 data "template_file" "linux_user_data" {
-  template = "${file("modules/autoscaling/linux_user_data.txt")}"  
+  template = "${file("${path.module}/linux_user_data.txt")}"  
 }
 
 resource "aws_launch_configuration" "nodejs_app" {
