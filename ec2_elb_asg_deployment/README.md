@@ -1,6 +1,6 @@
 # Terraform - AWS 
 
-Configure a VPC with IGW.
+Configure VPC with IGW.
 Configure Public subnet.
 Configure Route tables for the public subnet.
 Configure secuity group.
